@@ -1,0 +1,28 @@
+# Belly Button Biodiversity Dashboard
+
+## Overview
+The Belly Button Biodiversity Dashboard is an interactive web application that visualizes the bacterial data for each volunteer. Specifically, it showcases the top 10 bacterial species (OTUs) found in their belly buttons. Users can select a test subject ID from a dropdown to update all visualizations dynamically.
+
+## Features
+- A dropdown menu for selecting individual test subject IDs
+- A bar chart displaying the top 10 OTUs found in the selected individual
+- A bubble chart that visualizes the relative frequency of all the bacterial species found in the selected individual
+- A demographic information panel that displays metadata about the test subject
+
+
+## Technologies Used
+- D3.js for data manipulation and binding DOM elements to data
+- Plotly.js for interactive charts
+- Bootstrap for styling and layout
+- HTML/CSS for webpage structure and design
+
+## Setup
+To run this dashboard locally, follow these steps:
+1. Clone the repository to your local machine.
+2. Open the `index.html` file in a web browser.
+
+Alternatively, you can run a local server, for example by using Python:
+```
+# For Python 3.x
+python -m http.server
+```
